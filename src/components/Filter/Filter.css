@@ -1,0 +1,8 @@
+.filter >select {
+    padding: 10px;
+    border-radius: 2px;
+    outline-style: none;
+}
+.filter >select >option {
+    padding :10px;
+}

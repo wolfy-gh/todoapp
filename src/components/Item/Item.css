@@ -1,0 +1,44 @@
+.item {
+    display :flex;
+    justify-content: space-between;
+    background-color: white;
+    margin : 10px 100px; 
+    padding : 10px;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.done {
+    text-decoration: line-through;
+}
+.btn-done{
+    border:0;
+    padding: 10px;
+    margin : 0 2px;
+    border-radius: 0 2px 2px 0;
+    outline-style: none;
+    background-color:#84a9ac;
+}
+.btn-edit{
+    border:0;
+    padding: 10px;
+    margin : 0 2px;
+    border-radius: 0 2px 2px 0;
+    outline-style: none;
+    background-color:#247768;
+}
+.btn-delete {
+    border:0;
+    padding: 10px;
+    margin : 0 2px;
+    border-radius: 0 2px 2px 0;
+    outline-style: none;
+    background-color: #f12440;
+}
+.edit_input {
+    padding : 5px ; 
+    border:0;
+    border-bottom: 1px solid black;
+    margin: 0 5px;
+    outline: none;
+}
